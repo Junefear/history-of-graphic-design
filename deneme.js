@@ -2,6 +2,10 @@ console.clear();
 
 gsap.registerPlugin(ScrollTrigger);
 
+function isMobileLayout() {
+    return window.matchMedia("(max-width: 575px)").matches;
+}
+
 function wrapperZoom() {
     gsap.timeline({
         scrollTrigger: {
@@ -32,6 +36,8 @@ function wrapperZoom() {
 }
 
 function horizontalScroll() {
+    if (isMobileLayout()) return [];
+
     const pinWraps = document.querySelectorAll(".pin-wrap, .pin-wrap-2, .pin-wrap-3, .pin-wrap-4");
     if (!pinWraps.length) return [];
 
@@ -641,6 +647,7 @@ function fontDesignAnimate(hTween) {
 
 window.addEventListener("load", () => {
     const scrollPos = sessionStorage.getItem("scrollPos");
+    const mobileLayout = isMobileLayout();
 
     // 1️⃣ Giriş animasyonları
     wrapperZoom();
@@ -693,6 +700,16 @@ window.addEventListener("load", () => {
     // 6️⃣ Timeline tıklamaları (her iki yatay alan için)
     document.querySelectorAll(".time-line a").forEach((btn) => {
         btn.addEventListener("click", (e) => {
+            if (mobileLayout) {
+                const targetId = btn.getAttribute("href").replace("#", "");
+                const targetEl = document.getElementById(targetId);
+                if (targetEl) {
+                    e.preventDefault();
+                    targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+                return;
+            }
+
             e.preventDefault();
             document.querySelectorAll(".time-line a").forEach(a => a.classList.remove("active"));
             btn.classList.add("active");
@@ -745,6 +762,16 @@ window.addEventListener("load", () => {
         link.addEventListener("click", (e) => {
             e.preventDefault();
             const targetId = link.getAttribute("href").replace("#", "");
+
+            if (mobileLayout) {
+                const targetEl = document.getElementById(targetId);
+                if (targetEl) {
+                    targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+                if (typeof toggleMenu === "function") toggleMenu();
+                return;
+            }
+
             const stId = sectionStMap[targetId];
             if (stId) {
                 const st = ScrollTrigger.getById(stId);

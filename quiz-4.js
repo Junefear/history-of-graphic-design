@@ -169,7 +169,7 @@ nextBtn_4.addEventListener('click', () => {
             <span>Başarı Oranın</span>
             <h2>${percent}%</h2>
             <a href="javascript:void(0)" class="restart-btn-4">
-                Yeni Konuya Geç
+                Tebrikler! Tüm Konuları Tamamladınız.
             </a>
           </div>
         `;

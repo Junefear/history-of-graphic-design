@@ -2,7 +2,7 @@ const questions_2 = [
     {
         q: "Yazının icadından sonra insanlık tarihindeki en önemli gelişmelerden biri olan buluş aşağıdakilerden hangisidir?",
         options_2: ["Litografi (taş baskı)", "Ahşap baskı", "Tipo Baskı", "Serigrafi Baskı"],
-        answer_2: 1,
+        answer_2: 2,
         img_2: "./images/quiz/qiuz-2-cevap1.png"
     },
     {

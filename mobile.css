@@ -1,0 +1,265 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sectionPin,
+    .sectionPin-2,
+    .sectionPin-3,
+    .sectionPin-4 {
+        height: auto !important;
+        min-height: 100vh;
+        overflow: visible !important;
+    }
+
+    .pin-wrap,
+    .pin-wrap-2,
+    .pin-wrap-3,
+    .pin-wrap-4 {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        transform: none !important;
+    }
+
+    .pin-wrap>*,
+    .pin-wrap-2>*,
+    .pin-wrap-3>*,
+    .pin-wrap-4>* {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+    }
+
+    .time-line {
+        position: fixed;
+        bottom: 0;
+        z-index: 60;
+    }
+
+    .time-line ul {
+        gap: 4px;
+    }
+
+    .time-line ul li>a {
+        font-size: 8px;
+    }
+
+    .wrapperZoom-content .section {
+        padding: 0% 9.6% !important;
+    }
+
+    .hero-text {
+        font-size: 1.3rem !important;
+    }
+
+    .hero-des {
+        margin-top: 10px !important;
+        font-size: 1.3rem !important;
+    }
+
+    .wrapperZoom-content .section.hero {
+        background-size: 350% 100%;
+        background-position: center;
+    }
+
+    .welcome-area {
+        min-height: 400px;
+    }
+
+    .welcome-area h1 {
+        max-width: 94%;
+        font-size: 2.75em;
+    }
+
+    .welcome-area span {
+        max-width: 94%;
+        font-size: 20px;
+    }
+
+    .subject-sections-items .period .period-capter {
+        font-size: 22px;
+    }
+
+    .period-img-wrap {
+        margin-top: 34px;
+        margin-bottom: 14px;
+    }
+
+    .section-period .sub-text {
+
+        font-size: 3.444vh;
+    }
+
+    .section-period .main-text {
+        padding: 15px 40px;
+        font-size: 6vh;
+        margin: 80px 0px;
+    }
+
+    .section-two {
+        flex-flow: wrap;
+    }
+
+    .prehistoric-period-left>span {
+        min-width: auto;
+        font-size: 35px;
+    }
+
+    .prehistoric-period-left .right-gif {
+        inset: -4.5% 4.5% auto auto;
+    }
+
+    .prehistoric-period-left>section {
+        padding: 0 3vh;
+    }
+
+    .prehistoric-period-right {
+        padding: 5vh;
+    }
+
+    .prehistoric-period-left .left-gif {
+        inset: 48% auto auto 10%;
+    }
+
+
+
+    .section-two2 {
+        flex-flow: wrap;
+        width: 100%;
+    }
+
+    .prehistoric-period-page-2-right {
+        height: 500px
+    }
+
+    .prehistoric-period-page-2-left {
+        gap: 50px;
+    }
+
+
+    .global-section-sm {
+        width: 100%;
+    }
+
+    .mesopotamian-civilization-area>section {
+        padding: 0 3rem;
+        margin-top: 0px;
+    }
+
+    .mesopotamian-civilization-area>span {
+        min-width: auto;
+        font-size: 29px;
+    }
+
+
+    .mesopotamian-civilization-area>article img:nth-child(odd) {
+        z-index: 0;
+        height: 150px;
+
+    }
+
+    .mesopotamian-civilization-area .bg-effect {
+        width: 100%;
+        transform: skew(0deg, 0deg);
+        height: 200px;
+        z-index: 0;
+    }
+
+    .mesopotamian-civilization-area>article img {
+        height: 250px;
+        z-index: 2;
+    }
+
+    .global-section-xs {
+        padding: 3vh;
+        width: 100%;
+    }
+
+    .mesopotamian-civilization-2 .top-area>section {
+        flex-flow: wrap;
+        text-align: center;
+        gap: 110px;
+    }
+
+    .mesopotamian-civilization-2 .top-area>section .mark-left {
+        inset: auto auto -5.5% 6.5%;
+    }
+
+    .mesopotamian-civilization-2 .top-area>section .vs-1873 {
+        bottom: 35vh;
+    }
+
+    .mesopotamian-civilization-area .right-gif {
+        inset: -6.5% 4.5% auto auto;
+    }
+
+    .mesopotamian-civilization-area .left-gif {
+        inset: 60% auto auto 3%;
+    }
+
+    .mesopotamian-civilization-2 .bottom-area>p {
+        font-size: 14px;
+    }
+
+    .mesopotamian-civilization-2 .bottom-area>article>p {
+        font-size: 14px;
+    }
+
+    .mesopotamian-civilization-2 .bottom-area>p img {
+        inset: auto auto -7% -4%;
+    }
+
+
+    .mesopotamian-civilization-3>div {
+        margin-top: 60px;
+    }
+
+    .mesopotamian-civilization-3>p {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+
+    .mesopotamian-civilization-4 {
+        width: 100%;
+        padding: 9vh 4vh;
+    }
+
+    .mesopotamian-civilization-4>section>p {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .mesopotamian-civilization-4>p {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+
+    .ancient-egypt {
+        width: 100%;
+    }
+
+    .ancient-egypt-area>span {
+        min-width: 100%;
+        font-size: 29px;
+    }
+
+    .ancient-egypt-area>section {
+        padding: 0 3vh;
+    }
+
+    .ancient-egypt-area>section>p {
+        font-size: 16px;
+        padding: 0px 71px;
+    }
+    .ancient-egypt-area>article img{
+        z-index: 3;
+    }
+    .ancient-egypt-area .bg-effect {
+    width: 100%;
+    height: 335px;
+    z-index: 0;
+    transform: skew(0deg, 0deg);
+}
+}

@@ -14,19 +14,19 @@ const questions_3 = [
     {
         q: "Hangisi yalnızca tipografi ve illüstrasyona bağlı kalmadan tasarımlarda gerçekliğin birebir temsiline imkan tanıyan buluştur?",
         options_3: ["Linotype Makinesi", "Litografi Baskı Makinesi", "Fotoğraf Makinesi", "Ahşap Baskı Makinesi"],
-        answer_3: 1,
+        answer_3: 2,
         img_3: "./images/quiz/qiuz-3-cevap-3.png"
     },
     {
         q: "Hangisi 'Sanat ve El Sanatları' anlamında, sanayileşen bir anlamda ucuzlaşan tasarımlara karşı ortaya çıkan akımdır?",
         options_3: ["Kübizm ", "Art and Crafts", "Dadaizm", "Bauhaus"],
-        answer_3: 2,
+        answer_3: 1,
         img_3: "./images/quiz/qiuz-3-cevap-4.png"
     },
     {
         q: "Hangisi Arts and Crafts sonrasında mimari, ürün tasarımI, resim sanatı ve grafik tasarım gibi birçok alanda varlık gösteren, çok yönlü dekoratif bir üsluptur? ",
         options_3: ["Kübizm", "Pop Art", "Dadaizm", "Art Nouveau"],
-        answer_3: 0,
+        answer_3: 3,
         img_3: "./images/quiz/qiuz-3-cevap-5.png"
     }
 ];
