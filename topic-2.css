@@ -165,7 +165,7 @@
      position: absolute;
      width: 7.889vh;
      height: auto;
-     inset: 41% auto auto 18%;
+     inset: 41% auto auto 24%;
      filter: brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(522%) hue-rotate(64deg) brightness(91%) contrast(87%);
  }
 
@@ -279,6 +279,14 @@
  }
 
 
+ .letterpress-2 .letterpress-2-gif {
+     position: absolute;
+     width: 14.889vh;
+     height: auto;
+     z-index: -2;
+     inset: 13% auto auto 16%;
+ }
+
  /* #endregion */
 
  /* #region */
@@ -304,7 +312,8 @@
  .letterpress-3-top-left>img {
      position: absolute;
      width: 16.889vh;
-     inset: 21px auto auto 6%;
+     inset: 1% auto auto 46%;
+     z-index: -2;
  }
 
  .letterpress-3-top-left>p {
@@ -312,12 +321,16 @@
      font-size: 16px;
      color: #FFF;
      padding: 20px 25px;
+     line-height: 1.5;
+     font-weight: 200;
  }
 
  .letterpress-3-top-right>p {
      font-family: 'Roboto', sans-serif;
      font-size: 16px;
      color: #FFF;
+     font-weight: 200;
+     line-height: 1.3;
      padding: 20px 25px;
 
  }
@@ -328,9 +341,10 @@
  }
 
  .letterpress-3-top-right>img {
+     z-index: -1;
      position: absolute;
      width: 13.889vh;
-     inset: 30% auto auto 17%;
+     inset: 25% auto auto 67%;
  }
 
 
@@ -453,7 +467,7 @@
      position: absolute;
      width: 7.889vh;
      height: auto;
-     inset: 31% auto auto 28%;
+     inset: 42% auto auto 26%;
      filter: brightness(0) saturate(100%) invert(70%) sepia(42%) saturate(695%) hue-rotate(357deg) brightness(92%) contrast(86%);
  }
 
@@ -496,10 +510,18 @@
      position: relative;
  }
 
+ .germany-image-book-area>section>p {
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+     line-height: 1.3;
+     padding: 20px 25px;
+ }
+
+
  .germany-image-book-area>section>img {
      position: absolute;
      width: 17.889vh;
-     inset: 23px 30% auto auto;
+     inset: 45% 40% auto auto;
  }
 
  .germany-image-book-area>article {
@@ -556,6 +578,11 @@
      font-family: 'Roboto', sans-serif;
      font-size: 17px;
      color: #FFF;
+     font-weight: 300;
+ }
+
+ .germany-image-book-2-left p strong {
+     font-weight: bold;
  }
 
  .germany-image-book-2-left>article {
@@ -658,7 +685,7 @@
      position: absolute;
      width: 7.889vh;
      height: auto;
-     inset: 41% auto auto 18%;
+     inset: 32% auto auto 23%;
  }
 
  .font-design-area>span {
@@ -714,11 +741,11 @@
 
  .font-design-area>article {
      text-align: center;
-     margin-top: 49px;
+     margin-top: 51px;
  }
 
  .font-design-area>article>img {
-     width: 30%;
+     width: 36%;
  }
 
  .font-design-area>article>img:last-child {
@@ -749,6 +776,8 @@
      color: #FFF;
      margin-bottom: 80px;
      position: relative;
+     font-weight: 200;
+     line-height: 1.3;
  }
 
  .font-design-2 p:first-child::before {
@@ -764,7 +793,7 @@
  .font-design-2 p>img {
      position: absolute;
      width: 18.889vh;
-     inset: auto auto 11% 21%;
+     inset: auto auto 14% -5%;
  }
 
 

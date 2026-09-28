@@ -491,12 +491,20 @@
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    position: relative;
 }
 
 .typography-machine-2>p {
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 50px;
+}
+
+.typography-machine-2 .typography-machine-2-gif {
+    position: absolute;
+    width: 21.222vh;
+    z-index: -1;
+    inset: 4.5% 51.5% auto auto;
 }
 
 .typography-machine-2>section>img {
@@ -805,7 +813,7 @@
     position: absolute;
     width: 7.889vh;
     height: auto;
-    inset:30% auto auto 36%;
+    inset: 30% auto auto 36%;
     filter: brightness(0) saturate(100%) invert(20%) sepia(95%) saturate(2777%) hue-rotate(357deg) brightness(89%) contrast(94%);
 }
 
@@ -853,6 +861,9 @@
     margin-bottom: 20px;
 }
 
+.art-and-craft-area>section>p>strong {
+    color: #a22e0c;
+}
 
 .art-and-craft-area>article {
     text-align: center;
@@ -1288,7 +1299,12 @@
 .art-nouveu-2>section>p {
     font-size: 17px;
     color: #FFF;
+    font-weight: 300;
     font-family: 'Roboto';
+}
+
+.art-nouveu-2>section>p strong {
+    font-weight: bold;
 }
 
 .art-nouveu-2>section>p strong {
@@ -1314,7 +1330,7 @@
 
 .art-nouveu-2>section:last-child>img {
     position: absolute;
-       width: 7.222vh;
+    width: 7.222vh;
     height: auto;
     inset: -11.5% 86.5% auto auto;
     transform: rotate3d(1, 20, 1, 210deg);
@@ -1454,11 +1470,20 @@
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    position: relative;
 }
 
 
 .art-nouveu-4-area-right>img {
     width: 80%;
+}
+
+
+.art-nouveu-4-area-right .art-nouveu-4-area-right-gif-1 {
+       width: 24.778vh;
+    inset: 43% auto auto 10%;
+    position: absolute;
+     filter: brightness(0) saturate(100%) invert(62%) sepia(45%) saturate(839%) hue-rotate(344deg) brightness(91%) contrast(87%);
 }
 
 .art-nouveu-4-area-right>p {
@@ -1478,4 +1503,21 @@
     left: 0;
     top: 0;
 
+}
+
+
+
+.art-nouveu-4 .art-nouveu-4-area .art-nouveu-4-gif-1 {
+    width: 8.778vh;
+    inset: 35% auto auto 2%;
+    position: absolute;
+    filter: brightness(0) saturate(100%) invert(62%) sepia(45%) saturate(839%) hue-rotate(344deg) brightness(91%) contrast(87%);
+
+}
+
+.art-nouveu-4 .art-nouveu-4-area .art-nouveu-4-gif-2 {
+    width: 8.778vh;
+    inset: 11% auto auto 47%;
+    position: absolute;
+    filter: brightness(0) saturate(100%) invert(62%) sepia(45%) saturate(839%) hue-rotate(344deg) brightness(91%) contrast(87%);
 }

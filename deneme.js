@@ -192,20 +192,20 @@ function SubjectTextAnimate(hTween) {
         }
     });
 
-    gsap.from(".prehistoric-period-right > p", {
-        opacity: 0,
-        x: 60,
-        duration: 2.5,
-        ease: "power3.out",
-        scrollTrigger: {
-            trigger: ".section-two",
-            start: "top 100%",             // sol kenar, viewport’un %80 noktasına geldiğinde başla
-            end: "top 5%",               // opsiyonel: istersen animasyon alanını daralt
-            toggleActions: "play none play reverse",
-            scrub: false,
-            markers: false
-        }
-    });
+    // gsap.from(".prehistoric-period-right > p", {
+    //     opacity: 0,
+    //     x: 60,
+    //     duration: 2.5,
+    //     ease: "power3.out",
+    //     scrollTrigger: {
+    //         trigger: ".section-two",
+    //         start: "top 100%",             // sol kenar, viewport’un %80 noktasına geldiğinde başla
+    //         end: "top 5%",               // opsiyonel: istersen animasyon alanını daralt
+    //         toggleActions: "play none play reverse",
+    //         scrub: false,
+    //         markers: false
+    //     }
+    // });
 
 }
 
