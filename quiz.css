@@ -264,7 +264,7 @@
  }
 
  .frame-art-img {
-     width: 60%;
+     width: 62%;
      filter: blur(25px);
      transition: filter 0.6s ease;
  }

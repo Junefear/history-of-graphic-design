@@ -8,8 +8,8 @@ const questions = [
     {
         q: "Bilinen en eski el yazması hikaye kitabı hangisidir?",
         options: ["Diamond Sutra", "The Egyptian Books of the Dead", "Ortaçağ El Yazması Kitaplar", "Papirüs"],
-        answer: 0,
-        img: "./images/quiz/diamond-sutra.png"
+        answer: 1,
+        img: "./images/11-sekil-ölüler-kitabı-1.png"
     },
     {
         q: "Eski Mısır’da yazı işlevi gören ve resim özelliği taşıyan simgeler hangisidir?",
